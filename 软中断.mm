@@ -17,18 +17,27 @@
 <node CREATED="1470570028063" ID="ID_602224053" MODIFIED="1470570092921" TEXT="softirq_vec {&#xa;    softirq_action[32]&#xa;}">
 <node CREATED="1470570108582" ID="ID_860493974" MODIFIED="1470570208823" TEXT="softirq_action {&#xa;    action;//&#x6307;&#x5411;&#x8f6f;&#x4e2d;&#x65ad;&#x51fd;&#x6570;&#x7684;&#x6307;&#x9488;&#xa;    data;//&#x6307;&#x5411;&#x901a;&#x7528;&#x6570;&#x636e;&#x7ed3;&#x6784;&#x7684;&#x6307;&#x9488;&#xa;}"/>
 </node>
-<node CREATED="1470570217094" ID="ID_1914265480" MODIFIED="1470571330152" TEXT="&#x5b58;&#x653e;&#x5728;&#x6bcf;&#x4e2a;&#x8fdb;&#x7a0b;&#x63cf;&#x8ff0;&#x7b26;&#x7684;thread_info&#x5b57;&#x6bb5;&#x4e2d;&#xa;32bit &#x7684; preempt_count">
+<node COLOR="#ff3399" CREATED="1470570217094" ID="ID_1914265480" MODIFIED="1471052599484" TEXT="&#x5b58;&#x653e;&#x5728;&#x6bcf;&#x4e2a;&#x8fdb;&#x7a0b;&#x63cf;&#x8ff0;&#x7b26;&#x7684;thread_info&#x5b57;&#x6bb5;&#x4e2d;&#xa;32bit &#x7684; preempt_count">
+<icon BUILTIN="full-1"/>
 <node CREATED="1470570276748" ID="ID_1981521666" MODIFIED="1470570641327" TEXT="0~7bit     &#x62a2;&#x5360;&#x8ba1;&#x6570;&#x5668;&#xff08;max=255&#xff0c;&#x672c;&#x5730;CPU&#x5185;&#x6838;&#x62a2;&#x5360;&#x7684;&#x6b21;&#x6570;&#xff09;&#xa;8~15bit   &#x8f6f;&#x4e2d;&#x65ad;&#x8ba1;&#x6570;&#x5668;&#xff08;max=255&#xff0c;&#x4e3a;0&#x53ef;&#x62a2;&#x5360;&#xff0c;&#x975e;&#x96f6;&#x4e0d;&#x53ef;&#x62a2;&#x5360;&#xff09;&#xa;16~27bit &#x786c;&#x4e2d;&#x65ad;&#x8ba1;&#x6570;&#x5668;&#xff08;max=4096&#xff0c;&#x672c;&#x5730;PCU&#x4e0a;&#x4e2d;&#x65ad;&#x5904;&#x7406;&#x7a0b;&#x5e8f;&#x7684;&#x5d4c;&#x5957;&#x6570;&#xff0c;irq_enter()&#x9012;&#x589e;&#x5176;&#x503c;&#xff0c;irq_exit()&#x9012;&#x51cf;&#x5176;&#x503c;&#xff09;&#xa;28bit PREEMPT_ACTIVE&#x6807;&#x5fd7;"/>
 </node>
-<node CREATED="1470571081293" ID="ID_685057963" MODIFIED="1470571761520" TEXT="&#x6bcf;&#x4e2a;CPU&#x90fd;&#x6709;&#x8fd9;&#x4e2a;&#x6570;&#x636e;&#x7ed3;&#x6784;&#xa;irq_cpustat_t {&#xa;    __softirq_pending;//&#x8868;&#x793a;&#x6302;&#x8d77;&#xff08;&#x6fc0;&#x6d3b;&#xff09;&#x7684;&#x8f6f;&#x4e2d;&#x65ad;&#xff0c;&#x5373;&#x672c;&#x5730;CPU&#x7684;32&#x4f4d;&#x8f6f;&#x4e2d;&#x65ad;&#x63a9;&#x7801;&#xa;    idle_timestamp;    //CPU&#x53d8;&#x4e3a;&#x7a7a;&#x95f2;&#x7684;&#x65f6;&#x95f4;&#xa;    __nmi_count;    //NMI&#x4e2d;&#x65ad;&#x53d1;&#x751f;&#x7684;&#x6b21;&#x6570;&#xa;    apic_timer_irqs;//&#x672c;&#x5730;APIC&#x65f6;&#x949f;&#x4e2d;&#x65ad;&#x53d1;&#x751f;&#x7684;&#x6b21;&#x6570;&#xa;}"/>
+<node CREATED="1470571081293" ID="ID_685057963" MODIFIED="1471052615829" TEXT="&#x6bcf;&#x4e2a;CPU&#x90fd;&#x6709;&#x8fd9;&#x4e2a;&#x6570;&#x636e;&#x7ed3;&#x6784;&#xa;irq_cpustat_t {&#xa;    __softirq_pending;//&#x8868;&#x793a;&#x6302;&#x8d77;&#xff08;&#x6fc0;&#x6d3b;&#xff09;&#x7684;&#x8f6f;&#x4e2d;&#x65ad;&#xff0c;&#x5373;&#x672c;&#x5730;CPU&#x7684;32&#x4f4d;&#x8f6f;&#x4e2d;&#x65ad;&#x63a9;&#x7801;&#xa;    idle_timestamp;    //CPU&#x53d8;&#x4e3a;&#x7a7a;&#x95f2;&#x7684;&#x65f6;&#x95f4;&#xa;    __nmi_count;    //NMI&#x4e2d;&#x65ad;&#x53d1;&#x751f;&#x7684;&#x6b21;&#x6570;&#xa;    apic_timer_irqs;//&#x672c;&#x5730;APIC&#x65f6;&#x949f;&#x4e2d;&#x65ad;&#x53d1;&#x751f;&#x7684;&#x6b21;&#x6570;&#xa;}">
+<icon BUILTIN="full-2"/>
+</node>
 </node>
 <node CREATED="1470570657267" ID="ID_1857903538" MODIFIED="1470570666496" TEXT="&#x8f6f;&#x4e2d;&#x65ad;&#x5904;&#x7406;&#x6d41;&#x7a0b;">
 <node CREATED="1470570668829" ID="ID_648811693" MODIFIED="1470571458008" TEXT="open_softirq()//&#x8f6f;&#x4e2d;&#x65ad;&#x7684;&#x521d;&#x59cb;&#x5316;"/>
 <node CREATED="1470570688036" ID="ID_256938325" MODIFIED="1470570722297" TEXT="raise_softirq()//&#x6fc0;&#x6d3b;&#x8f6f;&#x4e2d;&#x65ad;">
 <node CREATED="1470572273206" ID="ID_1196767162" MODIFIED="1470572316800" TEXT="&#x628a;&#x8f6f;&#x4e2d;&#x65ad;&#x6807;&#x8bb0;&#x4e3a;&#x6302;&#x8d77;&#x72b6;&#x6001;&#xff0c;&#x901a;&#x8fc7;&#x8bbe;&#x7f6e;&#x672c;&#x5730;CPU&#x7684;&#x8f6f;&#x4e2d;&#x65ad;&#x63a9;&#x7801;&#x4e2d;&#x4e0e;&#x4e0b;&#x6807;nr&#x76f8;&#x5173;&#x7684;&#x4f4d;"/>
 <node CREATED="1470572321764" ID="ID_1151133696" MODIFIED="1470572336200" TEXT="in_interrupt()">
-<node CREATED="1470572424911" ID="ID_1951879921" MODIFIED="1470572471272" TEXT="&#x68c0;&#x67e5;prrmpt_count&#x5b57;&#x6bb5;&#x7684;&#x786c;&#x4ef6;&#x4e2d;&#x65ad;&#x8ba1;&#x6570;&#x5668;&#x548c;&#x8f6f;&#x4e2d;&#x65ad;&#x8ba1;&#x6570;&#x5668;">
-<node CREATED="1470572474501" ID="ID_1097208906" MODIFIED="1470572720943" TEXT="&#x53ea;&#x8981;&#x4e24;&#x4e2a;&#x8ba1;&#x6570;&#x5668;&#x4e2d;&#x4e00;&#x4e2a;&#x503c;&#x4e3a;&#x6b63;&#x6570;&#xff0c;&#x8be5;&#x5b8f;&#x8fd4;&#x56de;&#x975e;&#x96f6;&#xff0c;&#x5426;&#x5219;&#x8fd4;&#x56de;&#x96f6;"/>
+<node BACKGROUND_COLOR="#f0f0f0" CREATED="1470572424911" ID="ID_1951879921" MODIFIED="1471053119654" TEXT="&#x68c0;&#x67e5;preempt_count&#x5b57;&#x6bb5;&#x7684;&#x786c;&#x4ef6;&#x4e2d;&#x65ad;&#x8ba1;&#x6570;&#x5668;&#x548c;&#x8f6f;&#x4e2d;&#x65ad;&#x8ba1;&#x6570;&#x5668;">
+<icon BUILTIN="full-1"/>
+<node COLOR="#ff3300" CREATED="1470572474501" ID="ID_1097208906" MODIFIED="1471053086024" STYLE="bubble" TEXT="&#x53ea;&#x8981;&#x4e24;&#x4e2a;&#x8ba1;&#x6570;&#x5668;&#x4e2d;&#x4e00;&#x4e2a;&#x503c;&#x4e3a;&#x6b63;&#x6570;&#xff0c;&#x8be5;&#x5b8f;&#x8fd4;&#x56de;&#x975e;&#x96f6;&#xff08;&#x8868;&#x660e;&#x5df2;&#x7ecf;&#x5904;&#x5728;&#x4e2d;&#x65ad;&#x5904;&#x7406;&#x4e2d;&#x4e86;&#xff0c;&#x8981;&#x4e48;&#x7981;&#x7528;&#x4e86;&#x8f6f;&#x4e2d;&#x65ad;&#xff09;&#xff0c;&#x5426;&#x5219;&#x8fd4;&#x56de;&#x96f6;">
+<arrowlink DESTINATION="ID_1097208906" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_161661313" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<arrowlink DESTINATION="ID_1097208906" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1071600296" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1097208906" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_161661313" SOURCE="ID_1097208906" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1097208906" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1071600296" SOURCE="ID_1097208906" STARTARROW="None" STARTINCLINATION="0;0;"/>
+</node>
 </node>
 <node CREATED="1470572514994" ID="ID_266749358" MODIFIED="1470572573543" TEXT="&#x5982;&#x679c;&#x5185;&#x6838;&#x4e0d;&#x4f7f;&#x7528;&#x591a;&#x6838;&#x6808;">
 <node CREATED="1470572584453" ID="ID_1932487547" MODIFIED="1470573306930" TEXT="&#x8be5;&#x5b8f;&#x53ea;&#x68c0;&#x67e5;&#x5f53;&#x524d;&#x8fdb;&#x7a0b;&#x7684;preempt_count"/>
@@ -43,10 +52,13 @@
 <node CREATED="1470572982363" ID="ID_1613030928" MODIFIED="1470573024695" TEXT="&#x6bcf;&#x4e2a;CPU&#x90fd;&#x6709;&#x81ea;&#x5df1;&#x7684;ksofrirqd/n&#x5185;&#x6838;&#x7ebf;&#x7a0b;&#xff0c;n&#x4e3a;CPU&#x7684;&#x903b;&#x8f91;&#x53f7;"/>
 <node CREATED="1470573031898" ID="ID_450788491" MODIFIED="1470573044665" TEXT="&#x6bcf;&#x4e2a;&#x5185;&#x6838;&#x7ebf;&#x7a0b;&#x90fd;&#x8fd0;&#x884c;ksoftirqd()">
 <node CREATED="1470573074848" ID="ID_6552254" MODIFIED="1470573089647" TEXT="local_softirq_pending()"/>
-<node CREATED="1470573091171" ID="ID_428660229" MODIFIED="1470573099599" TEXT="do_softirq()">
+<node CREATED="1470573091171" ID="ID_428660229" MODIFIED="1471052585843" TEXT="do_softirq()">
+<icon BUILTIN="button_ok"/>
 <node CREATED="1470570916629" ID="ID_1409757657" MODIFIED="1470573121378" TEXT="do_softirq()//&#x5728;&#x67d0;&#x68c0;&#x67e5;&#x70b9;&#x68c0;&#x67e5;&#x5230;CPU&#x4e0a;&#x7684;&#x6709;&#x6302;&#x8d77;&#x7684;&#x8f6f;&#x4e2d;&#x65ad;">
 <node CREATED="1470571521357" ID="ID_370078969" MODIFIED="1470571541224" TEXT="__do_softirq()">
-<node CREATED="1470571662311" ID="ID_1068000809" MODIFIED="1470571817735" TEXT="local_softirq_pending()//&#x83b7;&#x53d6;&#x672c;&#x5730;CPU&#x7684;32&#x4f4d;&#x8f6f;&#x4e2d;&#x65ad;&#x63a9;&#x7801;"/>
+<node CREATED="1470571662311" ID="ID_1068000809" MODIFIED="1471052659425" TEXT="local_softirq_pending()//&#x83b7;&#x53d6;&#x672c;&#x5730;CPU&#x7684;32&#x4f4d;&#x8f6f;&#x4e2d;&#x65ad;&#x63a9;&#x7801;">
+<icon BUILTIN="full-2"/>
+</node>
 </node>
 <node CREATED="1470571830963" ID="ID_909120196" MODIFIED="1470571867192" TEXT="&#x5c06;CPU&#x7684;32&#x4f4d;&#x8f6f;&#x4e2d;&#x65ad;&#x63a9;&#x7801;&#x62f7;&#x8d1d;&#x81f3;&#x5c40;&#x90e8;&#x53d8;&#x91cf;pending&#x4e2d;"/>
 <node CREATED="1470572163683" ID="ID_1139481080" MODIFIED="1470572195823" TEXT="&#x6839;&#x636e;pending&#x4e2d;&#x6bcf;&#x4e00;&#x4f4d;&#x7684;&#x8bbe;&#x7f6e;&#xff0c;&#x6267;&#x884c;&#x8f6f;&#x4e2d;&#x65ad;&#x5904;&#x7406;&#x51fd;&#x6570;"/>
@@ -84,7 +96,8 @@
 </node>
 </node>
 <node CREATED="1470575069226" ID="ID_376511241" MODIFIED="1470575105471" TEXT="tasklet&#x6267;&#x884c;&#x6d41;&#x7a0b;">
-<node CREATED="1470575395517" ID="ID_1629215026" MODIFIED="1470575457143" TEXT="&#x8f6f;&#x4e2d;&#x65ad;&#x88ab;&#x6fc0;&#x6d3b;&#x540e;&#xff0c;do_softirq()&#x51fd;&#x6570;&#x6267;&#x884c;"/>
+<node CREATED="1470575395517" ID="ID_1629215026" MODIFIED="1471052578609" TEXT="&#x8f6f;&#x4e2d;&#x65ad;&#x88ab;&#x6fc0;&#x6d3b;&#x540e;&#xff0c;do_softirq()&#x51fd;&#x6570;&#x6267;&#x884c;">
+<icon BUILTIN="button_ok"/>
 <node CREATED="1470575458394" ID="ID_1337552018" MODIFIED="1470575495590" TEXT="TASKLET_SOFTIRQ">
 <node CREATED="1470575504259" ID="ID_119252038" MODIFIED="1470575539046" TEXT="&#x4e2d;&#x65ad;&#x5904;&#x7406;&#x51fd;&#x6570;&#xff1a;tasklet_action()">
 <node CREATED="1470575571569" ID="ID_361214010" MODIFIED="1470575657935" TEXT="&#x5c06;tasklet_vec[n]&#x7684;&#x94fe;&#x8868;&#x62f7;&#x8d1d;&#x5230;&#x672c;&#x5730;&#x5c40;&#x90e8;&#x53d8;&#x91cf;list&#x4e2d;"/>
@@ -111,6 +124,7 @@
 <node CREATED="1470575495591" ID="ID_1502865005" MODIFIED="1470575500183" TEXT="HI_SOFTIRQ">
 <node CREATED="1470575541092" ID="ID_1776304208" MODIFIED="1470575546086" TEXT="&#x4e2d;&#x65ad;&#x5904;&#x7406;&#x51fd;&#x6570;&#xff1a;tasklet_hi_action()">
 <node CREATED="1470576134824" ID="ID_811448515" MODIFIED="1470576218950" TEXT="&#x540c;tasklet_action()&#xff0c;&#x4f7f;&#x7528;&#x7684;&#x6570;&#x636e;&#x7ed3;&#x6784;&#x4e3a;&#xff1a;tasklet_hi_vec[n],HI_SOFTIRQ"/>
+</node>
 </node>
 </node>
 </node>
